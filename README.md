@@ -1,6 +1,6 @@
 ## Digital Signal Processing
 
-Elementary signals:
+##### Elementary signals:
 
     Impulse
     Step
@@ -110,6 +110,11 @@ Modulations: Modulation is defined as process in which changing the characterist
         PCM is a digital representation of an analog signal that takes samples of the amplitude of the analog signal at regular intervals. The sampled analog data is changed to, and then represented by, binary data.
 
 
+BER: Bit-Error-Rate is the ratio of incorrectly transmitted bits to all transmitted bits, over a given time period, from one active
+     device to another. 
+
+
+
 ## Digital Filter Design
 
 IIR: The infinite impulse response (IIR) filter is a recursive filter in that the output from the filter is computed by using the current 
@@ -165,6 +170,4 @@ Band Reject Filter:
 
 
 
-BER: Bit-Error-Rate is the ratio of incorrectly transmitted bits to all transmitted bits, over a given time period, from one active
-     device to another. 
 
