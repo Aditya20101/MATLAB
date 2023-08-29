@@ -28,8 +28,8 @@ Modulations: Modulation is defined as process in which changing the characterist
         the Carrier wave by using the instantaneous voltages of the modulating signal. In this 
         carrier Signal frequency remains constant.
 
-    DSB-SC: DSB-SC is an amplitude modulated wave transmission scheme in which only sidebands are transmitted and the carrier is not
-            transmitted as it gets suppressed. DSB-SC is an acronym for Double Sideband Suppressed Carrier.
+    DSB-SC: DSB-SC is an amplitude modulated wave transmission scheme in which only sidebands are transmitted and the carrier is 
+            not transmitted as it gets suppressed. DSB-SC is an acronym for Double Sideband Suppressed Carrier.
             The carrier does not contain any information and its transmission results in loss of power. 
             Thus only sidebands are transmitted that contains information. 
             This results in saving of power used in transmission.
