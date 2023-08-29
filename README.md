@@ -30,7 +30,8 @@ Modulations: Modulation is defined as process in which changing the characterist
 
     DSB-SC: DSB-SC is an amplitude modulated wave transmission scheme in which only sidebands are transmitted and the carrier is not
             transmitted as it gets suppressed. DSB-SC is an acronym for Double Sideband Suppressed Carrier.
-            The carrier does not contain any information and its transmission results in loss of power. Thus only sidebands are transmitted that contains information. 
+            The carrier does not contain any information and its transmission results in loss of power. 
+            Thus only sidebands are transmitted that contains information. 
             This results in saving of power used in transmission.
 
     SSB: Single-sideband modulation is the type in which only the upper sideband or 
@@ -68,7 +69,8 @@ Modulations: Modulation is defined as process in which changing the characterist
             linearly with the message signal.
 
         FM: Frequency modulation (FM) is a type of angle modulation in which the frequency of a sinusoidal carrier wave deviates from a
-            center frequency by an amount proportional to the instantaneous value of the message signal. In FM, the center frequency is the carrier frequency.
+            center frequency by an amount proportional to the instantaneous value of the message signal. 
+            In FM, the center frequency is the carrier frequency.
 
 
 
@@ -102,16 +104,26 @@ Modulations: Modulation is defined as process in which changing the characterist
 
 
     Pulse Amplitude Modulation (PAM):
-        It is the most basic type of Pulse Modulation. Each sample in this sort of modulation is proportional to the amplitude of the signal at the time of sampling. As the signal traces out the path of the entire wave, the PAM signal follows the amplitude of the original signal. In this case, a Nyquist-sampled signal can be reconstructed by passing it through an efficient Low Pass Filter (LPF) with a precise cutoff frequency. PAM is simple to create and demodulate. This method sends data by encoding it in the amplitude of a series of signal pulses.
+        It is the most basic type of Pulse Modulation. Each sample in this sort of modulation is proportional to the amplitude of the signal at the time of sampling. 
+        As the signal traces out the path of the entire wave, the PAM signal follows the amplitude of the original signal. In this case, a Nyquist-sampled signal 
+        can be reconstructed by passing it through an efficient Low Pass Filter (LPF) with a precise cutoff frequency. PAM is simple to create and demodulate.
+        This method sends data by encoding it in the amplitude of a series of signal pulses.
     
     Pulse Width Modulation (PWM):
-        Pulse Width Modulation (PWM), also known as Pulse Duration Modulation (PDM), or Pulse Time Modulation (PTM), is an analog modulation system in which the duration, width, or time of the pulse carrier varies proportionally to the instantaneous amplitude of the message signal. The width of the pulse varies in this manner, but the signal amplitude remains constant. Amplitude limiters are used to keep the signal's amplitude consistent. These circuits limit the noise by clipping the amplitude to the desired level.
+        Pulse Width Modulation (PWM), also known as Pulse Duration Modulation (PDM), or Pulse Time Modulation (PTM), is an analog modulation system in which the
+        duration, width, or time of the pulse carrier varies proportionally to the instantaneous amplitude of the message signal. The width of the pulse varies 
+        in this manner, but the signal amplitude remains constant. Amplitude limiters are used to keep the signal's amplitude consistent. These circuits limit 
+        the noise by clipping the amplitude to the desired level.
     
     Pulse Position Modulation (PPM):
-        The amplitude and width of the pulse are both kept constant in this sort of modulation. We alter the position of each pulse about a specific pulse. In this case, a single pulse with the required number of phase changes is sent. So, pulse position modulation is an analog modulation system in which the amplitude and breadth of the pulse remain constant while the position of the pulse concerning the direction of a reference pulse varies depending on the instantaneous value of the message signal.
+        The amplitude and width of the pulse are both kept constant in this sort of modulation. We alter the position of each pulse about a specific pulse.
+        In this case, a single pulse with the required number of phase changes is sent. So, pulse position modulation is an analog modulation system in which
+        the amplitude and breadth of the pulse remain constant while the position of the pulse concerning the direction of a reference pulse varies depending 
+        on the instantaneous value of the message signal.
 
     Pulse code modulation (PCM):
-        PCM is a digital representation of an analog signal that takes samples of the amplitude of the analog signal at regular intervals. The sampled analog data is changed to, and then represented by, binary data.
+        PCM is a digital representation of an analog signal that takes samples of the amplitude of the analog signal at regular intervals. The sampled analog
+        data is changed to, and then represented by, binary data.
 
 
 BER: Bit-Error-Rate is the ratio of incorrectly transmitted bits to all transmitted bits, over a given time period, from one active
@@ -125,25 +137,31 @@ IIR: The infinite impulse response (IIR) filter is a recursive filter in that th
      and previous inputs and previous outputs. Because the filter uses previous values of the output, there is feedback of the output in the filter structure. 
 
 FIR: In signal processing, a finite impulse response (FIR) filter is a filter whose impulse response (or response to any finite length
-     input) is of finite duration, because it settles to zero in finite time. This is in contrast to infinite impulse response (IIR) filters, which may have internal feedback and may continue to respond indefinitely (usually decaying).
+     input) is of finite duration, because it settles to zero in finite time. This is in contrast to infinite impulse response (IIR) filters, which may
+     have internal feedback and may continue to respond indefinitely (usually decaying).
 
 
 Low Pass Filter:
 
     Low Pass filter allow low-frequency signals without any attenuation (decrease in power) but it rejects any high-frequency signals.
 
-    The low pass filter has a reactive component, whose reactance varies with the input frequency. The variation in the reactance causes the voltage drop to increase or decrease inside the circuit. if the voltage drop is larger at the output, the signal will be passed, otherwise, it is rejected by the filter.
+    The low pass filter has a reactive component, whose reactance varies with the input frequency. The variation in the reactance causes the 
+    voltage drop to increase or decrease inside the circuit. if the voltage drop is larger at the output, the signal will be passed, otherwise, 
+    it is rejected by the filter.
 
     The passband & stopband frequencies are defined by the cutoff frequency of the filter. 
 
-    Any frequency less than the cutoff frequency is passed without any attenuation. While any other higher frequency signal then the cutoff frequency will be blocked.
+    Any frequency less than the cutoff frequency is passed without any attenuation. While any other higher frequency signal then the cutoff
+    frequency will be blocked.
 
 
 High Pass Filter:
 
-    The type of filter that allows the high-frequency signals to pass without any attenuation in its amplitude & blocks (rejects) any low-frequency signal is called high pass filter.
+    The type of filter that allows the high-frequency signals to pass without any attenuation in its amplitude & blocks (rejects) any low-frequency signal 
+    is called high pass filter.
 
-    Any signal with a frequency lower than the cutoff frequency of the filter gets blocked. While any signal with a frequency higher than the cutoff frequency passes with full amplitude.
+    Any signal with a frequency lower than the cutoff frequency of the filter gets blocked. While any signal with a frequency higher than the cutoff frequency 
+    passes with full amplitude.
 
 
 
@@ -168,7 +186,8 @@ Band Reject Filter:
 
     It is also known as Band Stop filter or Notch Filter.
 
-    It works completely opposite to the bandpass filter. It allows low-frequency signal & high-frequency signals. But it does not allow a fixed band of frequencies in between. 
+    It works completely opposite to the bandpass filter. It allows low-frequency signal & high-frequency signals. But it does not allow a fixed band of frequencies
+    in between. 
 
     It also has lower & upper cutoff frequencies. And any signals having frequency in-between these cutoff frequencies are rejected by the filter.
 
