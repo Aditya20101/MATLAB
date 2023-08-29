@@ -9,7 +9,9 @@
     Exponential
 
 Sampling and Quantization: The sampling process builds on the sampling theorem, which states that a strictly band-limited signal with no
-                            frequency components higher than W Hz is represented uniquely by a sequence of samples taken at a uniform rate greater than the Nyquist rate of 2W samples per second. The quantization process exploits the fact that any human sense, as ultimate receiver, can only detect finite intensity differences.
+                            frequency components higher than W Hz is represented uniquely by a sequence of samples taken at a uniform rate greater than the
+                            Nyquist rate of 2W samples per second. The quantization process exploits the fact that any human sense, as ultimate receiver, 
+                            can only detect finite intensity differences.
 
 Modulations: Modulation is defined as process in which changing the characteristics usually 
              amplitude, frequency and phase of high frequency wave (Carrier wave) by using 
@@ -27,7 +29,9 @@ Modulations: Modulation is defined as process in which changing the characterist
         carrier Signal frequency remains constant.
 
     DSB-SC: DSB-SC is an amplitude modulated wave transmission scheme in which only sidebands are transmitted and the carrier is not
-            transmitted as it gets suppressed. DSB-SC is an acronym for Double Sideband Suppressed Carrier. The carrier does not contain any information and its transmission results in loss of power. Thus only sidebands are transmitted that contains information. This results in saving of power used in transmission.
+            transmitted as it gets suppressed. DSB-SC is an acronym for Double Sideband Suppressed Carrier.
+            The carrier does not contain any information and its transmission results in loss of power. Thus only sidebands are transmitted that contains information. 
+            This results in saving of power used in transmission.
 
     SSB: Single-sideband modulation is the type in which only the upper sideband or 
          lower sideband is transmitted. It is optimum in the sense that it requires the minimum 
